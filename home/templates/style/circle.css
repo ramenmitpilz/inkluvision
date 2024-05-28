@@ -1,0 +1,13 @@
+#circle-container {
+    width: 30%; /* Anpassen der Breite des Containers relativ zur Bildschirmbreite */
+    height: 40vh; /* Beispielhöhe für den Container (80% der Bildschirmhöhe) */
+    margin: 0 auto; /* Zentrieren des Containers horizontal */
+    display: flex; /* Verwenden von Flexbox für das zentrierte Layout */
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /* Vertikal zentrieren */
+    }
+
+svg {
+        width: 100%; /* SVG auf die volle Breite des Elternelements ausdehnen */
+        height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+    }

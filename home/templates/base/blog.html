@@ -1,0 +1,18 @@
+{% extends "base/base.html" %}
+
+{% block style %}
+{% include 'style/horizontal_sticky.css' %}
+{% include 'style/header.css' %}
+{% endblock %}
+
+{% block header %} 
+{% include 'base/header.html' %}
+{% endblock %}
+
+{% block navigation %}  
+{% include 'navigation/horizontal.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'content/blog.html' %}
+{% endblock %}
